@@ -1,0 +1,141 @@
+body{
+    background-color: white;
+}
+
+.appMain{
+    position: relative;
+}
+
+
+.HeadingSelection{
+    margin-top: 10px;
+    padding:10px;
+    margin-left:20px;
+    border: none;
+    border-radius: 10px;
+    background-color:white;
+}
+
+.cardMain{
+    background-color: rgb(238, 235, 235);
+    width:320px;
+    padding:20px;
+    border-radius: 10px;
+}
+.cardSectionOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:-20px;
+    
+}
+.cardProfile{
+    border-radius: 50%;
+    position: relative;
+}
+.cardProfile img{ 
+    border-radius: 50%;
+    
+}
+.cardProfileStatus{
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    background-color: gray;
+    border: 1px solid white;
+    position: absolute;
+    left: 26px;
+    top:23px;
+    
+}
+.cardSectionThird{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+}
+.cardPriorityStatus{
+    padding:5px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    width: fit-content;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+.tag{
+    padding:5px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    width: fit-content;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    height: fit-content;
+}
+
+.shead{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    margin-left:10px;
+    margin-right: 15px;
+}
+.sfirst,.ssecond{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+    font-size:18px;
+  
+}
+.forBacklog,.forTodo,.forinProgress,.forDone,.forCanceled{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    
+    margin-top: 40px;
+}
+.AppSectionMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     margin-left: 10px;
+     margin-right: 10px;
+    flex-wrap: wrap;
+}
+
+.NameDivs{
+    
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .AppSectionMain{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .NameDivs{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:40px;   
+    }
+    
+  }
+  
